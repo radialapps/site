@@ -2,13 +2,14 @@
 {
     position: fixed;
     z-index:201;
-    right:0;
+    right: 10px;
     top: 0.5em;
 }
 
 #socialcontainer img.social{
     width:23pt;
     float:right;
+    margin: 1px;
 }
 
 #socialcontainer img.social:hover{
@@ -390,8 +391,8 @@
         line-height: 45px;
         cursor: pointer;
         margin:0;
-        padding:0
-        -moz-user-select:none;
+        padding:0;
+        -moz-user-select: none;
         -webkit-user-select: none;
     }
 
